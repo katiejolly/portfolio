@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>  katie jolly  </title>
+    <link>/</link>
+    <description>Recent content on   katie jolly  </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Racial residential segregation in charlottesville, VA</title>
+      <link>/portfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      
+      <guid>/portfolio/work2/</guid>
+      <description>&lt;p&gt;I calculated the dissimilarity index for Charlottesville, VA as a measure of racial residential segregation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>An introduction to geographic data science in r with honeybees</title>
+      <link>/portfolio/work3/</link>
+      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      
+      <guid>/portfolio/work3/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>exploring dc&#39;s bikeshare system: data wrangling with dplyr</title>
+      <link>/portfolio/work4/</link>
+      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      
+      <guid>/portfolio/work4/</guid>
+      <description>&lt;p&gt;At my office hours for Introduction to Data Science (COMP 112) one night, some students mentioned they felt like they needed more practice with data wrangling and dplyr. So the next day I wrote an activity for them to work through. It ended up being really helpful for the students who worked on it with me and made them much more confident in using dplyr! I&amp;rsquo;ve also presented this activity at R Ladies- Twin Cities.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 5</title>
+      <link>/portfolio/work5/</link>
+      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      
+      <guid>/portfolio/work5/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 6</title>
+      <link>/portfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>/portfolio/work6/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 7</title>
+      <link>/portfolio/work7/</link>
+      <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
+      
+      <guid>/portfolio/work7/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Name of the work 8</title>
+      <link>/portfolio/work8/</link>
+      <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
+      
+      <guid>/portfolio/work8/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Item with image</title>
+      <link>/portfolio/work9/</link>
+      <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
+      
+      <guid>/portfolio/work9/</guid>
+      <description>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>{advicegiveR}</title>
+      <link>/portfolio/work10/</link>
+      <pubDate>Sun, 18 Nov 2018 20:22:08 +0530</pubDate>
+      
+      <guid>/portfolio/work10/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;ve used R more for projects and become more familiar with the code structure, I&amp;rsquo;ve become interested in the development side of the R community. I decided to try writing my own package. In order to do this, I used a number of online resources and followed the examples of other packages. My package uses the &lt;a href=&#34;https://api.adviceslip.com/&#34;&gt;Advice Slip API&lt;/a&gt; and allows you to get life advice and write it on a poster.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>writing narratives with data: an introduction to ggplot2</title>
+      <link>/portfolio/work11/</link>
+      <pubDate>Sat, 05 Nov 2016 20:23:59 +0530</pubDate>
+      
+      <guid>/portfolio/work11/</guid>
+      <description>&lt;p&gt;I wrote this tutorial and presented it at R Ladies Twin Cities It uses fivethirtyeight biopics data and begins by recreating their graphics. Feel free to use it and share it!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Design: tossed patterns</title>
+      <link>/portfolio/work1/</link>
+      <pubDate>Sun, 18 Nov 2018 18:25:22 +0530</pubDate>
+      
+      <guid>/portfolio/work1/</guid>
+      <description>For my design class, I sketched and digitized a tossed pattern using Adobe Illustrator and Photoshop. I presented the pattern on two different background colors.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>
