@@ -1,9 +1,9 @@
 +++
 showonlyimage = false
 draft = false
-image = "img/portfolio/ipad-air-2.jpg"
+image = "img/portfolio/whip it.png"
 date = "2016-11-05T19:59:22+05:30"
-title = "Name of the work 8"
+title = "Whip It Like a (wo)Man: A Survival Analysis of Minority Contestants on MasterChef Junior"
 weight = 8
 +++
 

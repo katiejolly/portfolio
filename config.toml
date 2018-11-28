@@ -33,7 +33,7 @@ enableEmoji = true
 
   # Nav links in the side bar
   [[params.navlinks]]
-  name = "Tutorials and portfolio"
+  name = "Portfolio"
   url = "portfolio/"
   home = true
   

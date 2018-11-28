@@ -21,12 +21,14 @@
     </item>
     
     <item>
-      <title>An introduction to geographic data science in r with honeybees</title>
+      <title>An Introduction to Geographic Data Science in R with Honeybees</title>
       <link>/portfolio/work3/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
       <guid>/portfolio/work3/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+      <description>This activity is adapted from my talk at R Ladies- Twin Cities on November 7, 2018. Enjoy!
+In this activity I’ll demonstrate some code that shows the surface of geographic data science in R. We’ll use the packages sf, dplyr, and ggplot2 pretty heavily, so make sure those are installed and ready to be loaded! We&amp;rsquo;ll also use spdep a bit at the end.
+# run this code to install the packages!</description>
     </item>
     
     <item>
@@ -39,7 +41,7 @@
     </item>
     
     <item>
-      <title>Name of the work 5</title>
+      <title>Typeface Poster</title>
       <link>/portfolio/work5/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
@@ -48,16 +50,7 @@
     </item>
     
     <item>
-      <title>Name of the work 6</title>
-      <link>/portfolio/work6/</link>
-      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
-      
-      <guid>/portfolio/work6/</guid>
-      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Name of the work 7</title>
+      <title>Business Card</title>
       <link>/portfolio/work7/</link>
       <pubDate>Sat, 05 Nov 2016 19:57:40 +0530</pubDate>
       
@@ -66,7 +59,7 @@
     </item>
     
     <item>
-      <title>Name of the work 8</title>
+      <title>Whip It Like a (wo)Man: A Survival Analysis of Minority Contestants on MasterChef Junior</title>
       <link>/portfolio/work8/</link>
       <pubDate>Sat, 05 Nov 2016 19:59:22 +0530</pubDate>
       
@@ -75,7 +68,16 @@
     </item>
     
     <item>
-      <title>Item with image</title>
+      <title>Ohio Precincts Project</title>
+      <link>/portfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 19:56:17 +0530</pubDate>
+      
+      <guid>/portfolio/work6/</guid>
+      <description>&lt;p&gt;Fifth abundantly made Give sixth hath. Cattle creature i be don&amp;rsquo;t them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Science Resources</title>
       <link>/portfolio/work9/</link>
       <pubDate>Sat, 05 Nov 2016 20:02:19 +0530</pubDate>
       
@@ -89,7 +91,7 @@
       <pubDate>Sun, 18 Nov 2018 20:22:08 +0530</pubDate>
       
       <guid>/portfolio/work10/</guid>
-      <description>&lt;p&gt;As I&amp;rsquo;ve used R more for projects and become more familiar with the code structure, I&amp;rsquo;ve become interested in the development side of the R community. I decided to try writing my own package. In order to do this, I used a number of online resources and followed the examples of other packages. My package uses the &lt;a href=&#34;https://api.adviceslip.com/&#34;&gt;Advice Slip API&lt;/a&gt; and allows you to get life advice and write it on a poster.&lt;/p&gt;</description>
+      <description> advicegiveR </description>
     </item>
     
     <item>

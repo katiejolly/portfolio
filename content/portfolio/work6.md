@@ -1,10 +1,10 @@
 +++
 draft = false
-image = ""
+image = "img/portfolio/ohio-art.png"
 date = "2016-11-05T19:56:17+05:30"
-title = "Name of the work 6"
+title = "Ohio Precincts Project"
 showonlyimage = false
-weight = 6
+weight = 8
 +++
 
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.

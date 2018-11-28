@@ -1,9 +1,9 @@
 +++
-draft = false
-image = "img/portfolio/envelope-brand.jpg"
+draft = true
+image = "img/portfolio/data_resources.png"
 showonlyimage = false
 date = "2016-11-05T20:02:19+05:30"
-title = "Item with image"
+title = "Data Science Resources"
 weight = 9
 +++
 

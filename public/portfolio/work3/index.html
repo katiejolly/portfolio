@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>An introduction to geographic data science in r with honeybees</title>
+<title>An Introduction to Geographic Data Science in R with Honeybees</title>
 <meta name="description" content="katie jolly&#39;s portfolio site">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -43,7 +43,7 @@
     
     <ul class="sidebar-menu">
       
-        <li><a href="/portfolio/">Tutorials and portfolio</a></li>
+        <li><a href="/portfolio/">Portfolio</a></li>
       
         <li><a href="http://katiejolly.io/blog/">Blog</a></li>
       
@@ -105,34 +105,75 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>An introduction to geographic data science in r with honeybees</h1>
-         <p>Fifth abundantly made Give sixth hath. Cattle creature i be don&rsquo;t them.</p>
+         <h1>An Introduction to Geographic Data Science in R with Honeybees</h1>
+         
 
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+<p>This activity is adapted from my talk at R Ladies- Twin Cities on November 7, 2018. Enjoy!</p>
 
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+<hr />
 
-<ol>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
-</ol>
+<p>In this activity I’ll demonstrate some code that shows the surface of geographic data science in R. We’ll use the packages <code>sf</code>, <code>dplyr</code>, and <code>ggplot2</code> pretty heavily, so make sure those are installed and ready to be loaded! We&rsquo;ll also use <code>spdep</code> a bit at the end.</p>
 
-<blockquote>
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-</blockquote>
+<pre><code class="language-r"># run this code to install the packages!
 
-<h2 id="header-level-2">Header Level 2</h2>
+install.packages(&quot;dplyr&quot;)
+install.packages(&quot;ggplot2&quot;)
+install.packages(&quot;sf&quot;)
 
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+# and better yet, if you're using dplyr and ggplot2, try running
 
-<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+install.packages(&quot;tidyverse&quot;) # to install the whole tidyverse
+</code></pre>
+
+<pre><code class="language-r">library(sf)
+library(tidyverse)
+#library(ggplot2)
+#library(dplyr)
+</code></pre>
+
+<h4 id="geographic-data-science-gds-and-geographic-information-science-gisc">Geographic Data Science (GDS) and Geographic Information Science (GISc)</h4>
+
+<p>While very similar, there are some key differences between GDS and GISc. We generally think about geographic operations in R and Python as geographic data science/geocomputation. On the other hand, we think about geogaphic operations in programs like QGIS and ArcMap as GISc (often just written GIS). One of the key distinctions for me is the degree of reproducibility.</p>
+
+<p><img alt="Table comparing GDS and GISc" src="/img/portfolio/gis-vs-gds.png" width = "100%"></p>
+
+<p>Table taken from Robin Lovelace&rsquo;s post <a href="https://www.robinlovelace.net/2017/05/02/can-geographic-data-save-the-world/">Can Geographic Data Save the World?</a>.</p>
+
+<p>With geographic operations in R, we can produce a full script of what we ran including any assumptions we made. This isn’t the case with QGIS and ArcMap (I pick on these two only because they are the most popular). An added bonus as an R user is that the <code>sf</code> package for geographic data is specifically designed to work within the tidyverse framework. This means spatial data works with things like <code>dplyr</code> data verbs and now there’s even a <code>geom_sf()</code> function in <code>ggplot2</code>!</p>
+
+<h4 id="r-spatial-ecosystem">R-Spatial Ecosystem</h4>
+
+<p>There are a variety of packages available for spatial data analysis specifically.</p>
 
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-<li>Aliquam tincidunt mauris eu risus.</li>
+<li><a href="https://github.com/edzer/sp/">sp</a>: Classes and Methods for Spatial Data</li>
+<li><a href="https://github.com/r-spatial/sf">sf</a>: Simple Features for R</li>
+<li><a href="https://github.com/r-spatial/spdep">spdep</a>: Spatial Dependence: Weighting Schemes, Statistics, and Models</li>
+<li><a href="https://github.com/r-spatial/lwgeom">lwgeom</a>: Binding to the liblwgeom Library</li>
+<li>&hellip;</li>
 </ul>
 
-<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>
+<p>The newest, and in my opinion the most helpful to be comfortable with, is <code>sf</code>.</p>
+
+<p>A good set of tutorials is available on the (a bit outdated) r-spatial <a href="http://rspatial.org/">site</a>.</p>
+
+<p>Along with data analysis, there is also a great set of packages for data visualization! While sf dataframes work with <code>plot()</code>, these packages offer a lot more flexibility for users.</p>
+
+<ul>
+<li><a href="https://github.com/tidyverse/ggplot2">ggplot2</a>: An Implementation of the Grammar of Graphics in R (as of version 3, I believe)</li>
+<li><a href="https://github.com/r-spatial/mapview">mapview</a>: Interactive Viewing of Spatial Data in R</li>
+<li><a href="https://rstudio.github.io/leaflet/">leaflet</a>: Create Interactive Web Maps with the JavaScript Leaflet Library (great with shiny apps!)</li>
+<li><a href="https://github.com/mtennekes/tmap">tmap</a>: R Package for Thematic Maps</li>
+</ul>
+
+<p>If you’re interested in keeping up with the latest r-spatial developments, consider following people like Jakub Nowosad, Robin Lovelace, Edzer Pebesma, Jannes Muenchow, Mark Padgham, Angela Li, Michael Sumner, Leah Wasser, Zev Ross, Kyle Walker, Roger Bivand, Jesse Sadler, and many, many more!</p>
+
+<h4 id="structure-of-sf-data">Structure of sf data</h4>
+
+<p><img alt="Types of Simple Features Data" src="/img/portfolio/sf-data-types.png" width = "75%"></p>
+
+<p>Image taken from <a href="https://geocompr.robinlovelace.net/spatial-class.html">Geocomputation with R</a></p>
+
          <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {

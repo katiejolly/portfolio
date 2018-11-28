@@ -1,9 +1,9 @@
 +++
-image = "img/portfolio/business-card.jpg"
+image = "img/portfolio/type-poster.png"
 showonlyimage = true
 draft = false
 date = "2016-11-05T19:53:42+05:30"
-title = "Name of the work 5"
+title = "Typeface Poster"
 weight = 5
 +++
 

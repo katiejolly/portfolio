@@ -6,9 +6,9 @@ title = "about me"
 
 tl;dr here's my [CV](/pdf/kjolly_cv.pdf)!
 
-I'm a senior at Macalester College studying statistics and geography. I'm particularly interested in topics like geographic data science, map design, spatial statistics, open data, and reproducible research. 
+I'm a senior at Macalester College studying statistics and geography. I'm particularly interested in topics like geographic data science, data visualization, spatial statistics, open data, and reproducible research. 
 
-Aside from these things, I'm an avid distance runner, biography reader, podcast listener, and Twitter lurker! My favorite things to listen to right now are [It's Been a Minute with Sam Sanders](https://www.npr.org/podcasts/510317/its-been-a-minute-with-sam-sanders), [99% Invisible](https://99percentinvisible.org/), and [Nerdette](https://www.npr.org/podcasts/399954056/nerdette-podcast). 
+Aside from these things, I'm an avid distance runner :runner:, biography reader :books:, podcast listener :headphones:, and Twitter lurker :eyeglasses:! My favorite things to listen to right now are [It's Been a Minute with Sam Sanders](https://www.npr.org/podcasts/510317/its-been-a-minute-with-sam-sanders), [99% Invisible](https://99percentinvisible.org/), and [Nerdette](https://www.npr.org/podcasts/399954056/nerdette-podcast). 
 
 
 <img alt="Image of me in front of a waterfall" src="/img/profile.JPG" width = "50%">

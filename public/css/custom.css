@@ -73,3 +73,13 @@ h1 {
 .social--big a {
 	color: #97caef
 }
+
+a, a:visited, a:active {
+  text-decoration: none;
+  border-bottom: 1px #55BCC9 dotted;
+}
+
+a:hover {
+  text-decoration: underline;
+  border: none;
+}
