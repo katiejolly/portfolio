@@ -7,6 +7,7 @@
          <h1>{{ .Title }}</h1>
          {{ .Content }}
          {{ template "_internal/disqus.html" . }}
+         {{ if .Params.redirectURL }}<meta http-equiv="refresh" content="1; url={{ .Params.redirectURL }}"/>{{ end }}
       </div>
     </div>
   </div>
